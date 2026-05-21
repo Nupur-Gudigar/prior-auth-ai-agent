@@ -264,6 +264,33 @@ header { visibility: hidden !important; height: 0 !important; }
 </style>
 """, unsafe_allow_html=True)
 
+# Hide Streamlit branding button via JS
+import streamlit.components.v1 as components
+components.html("""
+<script>
+function hideBranding() {
+    // Hide the red Streamlit button iframe
+    const iframes = window.parent.document.querySelectorAll('iframe');
+    iframes.forEach(iframe => {
+        if (iframe.title === 'st_toolbar' || iframe.src.includes('toolbar')) {
+            iframe.style.display = 'none';
+        }
+    });
+    // Hide by position (bottom right fixed element)
+    const allFixed = window.parent.document.querySelectorAll('[style*="position: fixed"], [style*="position:fixed"]');
+    allFixed.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.bottom > window.parent.innerHeight - 100 && rect.right > window.parent.innerWidth - 100) {
+            el.style.display = 'none';
+        }
+    });
+}
+hideBranding();
+setTimeout(hideBranding, 500);
+setTimeout(hideBranding, 1500);
+</script>
+""", height=0)
+
 DIAGNOSIS_OPTIONS = {
     "M54.5 — Low back pain":                             "M54.5",
     "M51.1 — Lumbar disc herniation with radiculopathy": "M51.1",
