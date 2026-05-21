@@ -255,6 +255,12 @@ p, span, div, label, h1, h2, h3, h4 { color: #18181A; }
 /* ── COLUMN DIVIDER ── */
 [data-testid="column"]:nth-child(1) { border-right: 1.5px solid #C8C4BC; padding-right: 32px !important; }
 [data-testid="column"]:nth-child(2) { padding-left: 32px !important; }
+
+/* ── HIDE STREAMLIT BRANDING ── */
+footer { visibility: hidden !important; height: 0 !important; }
+header { visibility: hidden !important; height: 0 !important; }
+[data-testid="stDecoration"] { display: none !important; }
+[data-testid="manage-app-button"] { display: none !important; }
 </style>
 """, unsafe_allow_html=True)
 
