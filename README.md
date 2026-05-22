@@ -15,7 +15,7 @@
 [![Image of my-views-counter](https://github.com/Nupur-Gudigar/my-views-counter/blob/master/svg/1242868953/badge.svg)](https://github.com/Nupur-Gudigar/my-views-counter/blob/master/readme/1242868953/week.md)
 
 
-**[→ Try the Live Demo](https://nupur-gudigar-prior-auth-ai-agent.streamlit.app)**
+**[→ Try the Live Demo](https://nupur-gudigar-prior-ai-agent.streamlit.app/)**
 &nbsp;&nbsp;|&nbsp;&nbsp;
 **[→ CMS Medicare Coverage Database](https://www.cms.gov/medicare-coverage-database/search.aspx)**
 
