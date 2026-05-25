@@ -12,6 +12,7 @@
 [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)](https://mlflow.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://nupur-gudigar-prior-auth-ai-agent.streamlit.app)
 [![HIPAA](https://img.shields.io/badge/HIPAA--Aware-00897B?style=flat&logoColor=white)](./docs/hipaa_design.md)
+[![Image of my-views-counter](https://github.com/Nupur-Gudigar/my-views-counter/blob/master/svg/1242868953/badge.svg)](https://github.com/Nupur-Gudigar/my-views-counter/blob/master/readme/1242868953/week.md)
 
 
 **[→ Try the Live Demo](https://nupur-gudigar-prior-ai-agent.streamlit.app/)**
