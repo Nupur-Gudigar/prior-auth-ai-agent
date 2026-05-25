@@ -14,8 +14,7 @@
 [![HIPAA](https://img.shields.io/badge/HIPAA--Aware-00897B?style=flat&logoColor=white)](./docs/hipaa_design.md)
 
 
-
-**[→ Try the Live Demo](https://nupur-gudigar-prior-auth-ai-agent.streamlit.app)**
+**[→ Try the Live Demo](https://nupur-gudigar-prior-ai-agent.streamlit.app/)**
 &nbsp;&nbsp;|&nbsp;&nbsp;
 **[→ CMS Medicare Coverage Database](https://www.cms.gov/medicare-coverage-database/search.aspx)**
 
